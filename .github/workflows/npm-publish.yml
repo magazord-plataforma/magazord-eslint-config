@@ -16,10 +16,7 @@ jobs:
       - name: Set Up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14
-
-      - name: Install Dependencies
-        run: npm ci
+          node-version: 14     
 
       - name: Publish to NPM
         run: npm publish
