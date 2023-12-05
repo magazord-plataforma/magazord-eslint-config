@@ -3,7 +3,7 @@ name: Publish to NPM
 on:
   push:
     branches:
-      - master  # Substitua pela sua branch principal, se necessário
+      - master
 
 jobs:
   publish:
@@ -19,6 +19,6 @@ jobs:
           node-version: 14     
 
       - name: Publish to NPM
-        run: npm publish --@@mzrd:registry=https://npm.pkg.github.com/ --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
