@@ -9,13 +9,14 @@ ser criadas e exportadas neste pacote.
 
 Para instalar, basta executar:
 
-
+```
 npm i -D eslint @mzrd/eslint-config
-
+```
 
 Em seguida, crie o arquivo `.eslintrc.json` na raiz do projeto contendo o seguinte código:
 
-
+```
 {
   "extends": "@mzrd/eslint-config"
 }
+```
