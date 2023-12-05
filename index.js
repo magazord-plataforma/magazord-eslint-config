@@ -36,7 +36,7 @@ module.exports = {
         "react/jsx-uses-react": "off",
         "react/jsx-key": "off",
         "no-tabs": "error",
-        "jsx-quotes": ["error", "prefer-double"], // Adicione esta linha para usar aspas duplas em JSX
+        "jsx-quotes": ["error", "prefer-single"],
     },
     "ignorePatterns": [
         "node_modules"
