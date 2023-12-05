@@ -1,6 +1,6 @@
 {
   "name": "@mzrd/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint configuration used by Magazord.",
   "main": "index.js",
   "author": "",
@@ -15,7 +15,7 @@
     }
   },
   "publishConfig": {
-    "publishConfig": { "@mzrd:registry": "https://npm.pkg.github.com" }
+    "@mzrd:registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "style guide",
