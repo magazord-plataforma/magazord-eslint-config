@@ -36,7 +36,7 @@ module.exports = {
         "react/jsx-uses-react": "off",
         "react/jsx-key": "off",
         "no-tabs": "error",
-        "jsx-quotes": ["error", "prefer-single"],
+        "jsx-quotes": ["error", "prefer-double"],
     },
     "ignorePatterns": [
         "node_modules"
