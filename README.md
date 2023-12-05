@@ -13,6 +13,12 @@ Para instalar, basta executar:
 npm i -D eslint @mzrd/eslint-config
 ```
 
+Para atualizar o pacote para a última versão disponível, basta executar:
+
+```bash
+npm i -D eslint @mzrd/eslint-config
+```
+
 Em seguida, crie o arquivo `.eslintrc.json` na raiz do projeto contendo o seguinte código:
 
 ```
