@@ -35,13 +35,15 @@ module.exports = {
         'react/jsx-uses-react': 'off',
         'react/jsx-key': 'off',
         'no-tabs': 'error',
+        // Remova a propriedade overrides do bloco rules
     },
     overrides: [
         {
             files: ['*.ts', '*.tsx'],
             rules: {
+                // Configurações específicas para TypeScript aqui
                 semi: ['error', 'never'],
-                singleQuote: true,
+                singleQuote: ['error', 'true'], // ou 'error', dependendo da sua preferência
                 tabWidth: 4,
                 jsxSingleQuote: false,
             },
