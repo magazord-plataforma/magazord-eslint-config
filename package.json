@@ -1,6 +1,6 @@
 {
   "name": "@mzrd/eslint-config",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "ESLint configuration used by Magazord.",
   "main": "index.js",
   "author": "",
@@ -24,8 +24,11 @@
     "@typescript-eslint/parser": "^6.13.2",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.14.0",
     "prettier": "^3.2.2"
   }
 }
