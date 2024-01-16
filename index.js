@@ -40,7 +40,7 @@ module.exports = {
         {
             files: ['*.ts', '*.tsx'],
             rules: {
-                semi: false,
+                semi: ['error', 'never'],
                 singleQuote: true,
                 tabWidth: 4,
                 jsxSingleQuote: false,
