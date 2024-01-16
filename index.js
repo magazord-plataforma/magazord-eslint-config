@@ -18,25 +18,35 @@ module.exports = {
         "react"
     ],
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "quotes": [
-            "error",
-            "single",
-            { "allowTemplateLiterals": true }
-        ],
-        "semi": [
-            "error",
-            "never"
+        "prettier/prettier": [
+            "error", {
+                "tabWidth": 4,
+                "singleQuote": true,
+                "trailingComma": 'all',
+                "arrowParens": 'always',
+                "semi": false,
+                'endOfLine': 'auto',
+                "jsxSingleQuote": false,
+                "jsxBracketSameLine": false,
+                "bracketSpacing": true,
+                "overrides": [
+                    {
+                        "files": ["*.ts", "*.tsx"],
+                        "options": {
+                            "semi": false,
+                            "singleQuote": true,
+                            "tabWidth": 4,
+                            "jsxSingleQuote": false
+                        }
+                    }
+                ]
+            }
         ],
         "@typescript-eslint/no-explicit-any": ["off"],
         "react/react-in-jsx-scope": "off",
         "react/jsx-uses-react": "off",
         "react/jsx-key": "off",
         "no-tabs": "error",
-        "jsx-quotes": ["error", "prefer-double"],
     },
     "ignorePatterns": [
         "node_modules"
