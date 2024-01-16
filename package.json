@@ -1,6 +1,6 @@
 {
   "name": "@mzrd/eslint-config",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "ESLint configuration used by Magazord.",
   "main": "index.js",
   "author": "",
