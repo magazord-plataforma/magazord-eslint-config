@@ -39,7 +39,7 @@ module.exports = {
     overrides: [
         {
             files: ['*.ts', '*.tsx'],
-            options: {
+            rules: {
                 semi: false,
                 singleQuote: true,
                 tabWidth: 4,
