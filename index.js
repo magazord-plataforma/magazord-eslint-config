@@ -23,7 +23,7 @@ module.exports = {
         "simple-import-sort/imports": "error",
         "indent": [
             "error",
-            4
+            3
         ],
         "quotes": [
             "error",
