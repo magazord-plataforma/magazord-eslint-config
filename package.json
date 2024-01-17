@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/magazord-plataforma/magazord-eslint-config.git"
+    "url": "git+https://github.com/magazord-plataforma/magazord-eslint-config.git"
   },
   "publishConfig": {
     "access": "restricted"
