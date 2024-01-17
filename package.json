@@ -39,7 +39,7 @@
     "url": "git+https://github.com/magazord-plataforma/magazord-eslint-config.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "devDependencies": {
     "semantic-release": "^23.0.0"
