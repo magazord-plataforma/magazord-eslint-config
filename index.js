@@ -40,6 +40,7 @@ module.exports = {
         "react/jsx-key": "off",
         "no-tabs": "error",
         "jsx-quotes": ["error", "prefer-double"],
+        "tailwindcss/no-unnecessary-arbitrary-value": "off"
     },
     overrides: [
         {
